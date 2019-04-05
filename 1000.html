@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1000 Day Challenge</title>
+    <style type="text/css">
+        div.content {
+            width: 960px;
+            margin: 0 auto;
+        }
+        h2 {
+            font-family: "Courier New", serif;
+            text-align: center
+        }
+        p.content {
+        font-family: "Courier New", serif;
+        text-align: justify;
+        }
+        p.timeshow {
+        font-family: "Courier New", serif;
+        text-align: center;
+        color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>
+            1000 Day Challenge
+        </h2>
+    </div>
+    <div class="content">
+        <p class="timeshow" id="daypassed"></p>
+        <p class="content">
+            OK, here we go. I've wasted my engineering career by doing nothing or you can say almost nothing.
+            So here I am. I am onto something. I still don't know if I can do this. But I'm working on it.
+            Maybe I'm not the best person to do this. If this countdown passed 1000 days and you see the red
+            expired sign above, you can think of a few things. I am no longer alive or I've lost access.
+            There's also a third possibility. I forgot what I was planning to do. In either case, you know
+            I lost my track. Else I'm very much alive and you'll know what is happening.
+        </p>
+
+    </div>
+
+<script>
+var countDownDate = new Date("Apr 4, 2019 00:00:00").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = now - countDownDate;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  document.getElementById("daypassed").innerHTML = "Passed: " + days + " day(s)";
+  if (days > 1000) {
+    clearInterval(x);
+    document.getElementById("daypassed").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</body>
+</html>
