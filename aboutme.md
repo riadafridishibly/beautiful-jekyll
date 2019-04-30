@@ -12,4 +12,4 @@ I have been using Linux for about 3 years now. Currently, I am using [Arch Linux
 
 I enjoy exploring new things. Most of the time they backfire [sad emoticon]. I love coding, cycling and reading. I browse [Quora](https://quora.com) a lot. Even though I don't ask question, I prefer reading. Silent reader you can say.
 
-I am active on [Telegram ID](https://t.me/shibly). If you have any query you can simply ask me on telegram. Have a Good Day, Sir.
+I am active on Telegram. [t.me/shibly](https://t.me/shibly). If you have any query you can simply ask me on telegram. Have a Good Day, Sir.
