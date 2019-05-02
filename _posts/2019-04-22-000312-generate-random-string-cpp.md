@@ -4,7 +4,7 @@ title: Generate Random String in C++
 layout: post
 comments: true
 author: Riad Afridi Shibly
-category: [C++]
+tags: [c++]
 permalink: '/posts/generate-random-string-c++/'
 ---
 
