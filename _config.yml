@@ -1,5 +1,7 @@
 # Site Build Settings
 
+url: "http://riadafridishibly.github.io"
+baseurl: ""
 # Jekyll-paginate-v2 configuration
 #  pagination:
 #   enabled: true
