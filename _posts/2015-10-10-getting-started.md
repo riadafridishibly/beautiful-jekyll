@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "Getting Started"
 author: "Paul Le"
@@ -132,7 +133,7 @@ The menu pages are found in the `menu` folder in the root directory, and can be 
 
 ### Posts
 
-You will find example posts in your `_posts` directory. Go ahead and edit any post and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+You will find example posts in your `_posts` directory. Go ahead and edit any post and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates nd categoriyour site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention of `YYYY-MM-DD-name-of-post.md` and includes the necessary front matter. Take a look at any sample post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts to migrate to Lagrange.
 
