@@ -1,3 +1,19 @@
+
+{% assign has_posts = false %}
+{% assign listed_posts_urls = page.url | split: ' ' %}
+{% for tag in page.tags %}
+  {% for mypost in site.tags[tag] limit:3 %}
+    {% if listed_posts_urls contains mypost.url %} {% comment %} already in list {% endcomment %}
+    {% else %}
+      {% assign has_posts = true %}
+      {% break %}
+      {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
+    {% endif %}
+  {% endfor %}
+  {% if has_posts %} {% break %} {% endif %}
+{% endfor %}
+
+{% if has_posts %}
 <div class="related">
   <h1 >{{ site.data.settings.related_posts }}</h1>
   {% assign listed_posts_urls = page.url | split: ' ' %}
@@ -21,3 +37,4 @@
     {% endfor %}
   </ul>
 </div>
+{% endif %}
