@@ -5,12 +5,12 @@ title: String Hashing in C++
 author: Riad Afridi Shibly
 categories: programming
 tags: [c++, hasing]
-image:
+image: string-hashing.jpg
 ---
 
 ## What is Hashing?
 
-Let's think about a function `unsigned int hash(string)`. This function will take a string as a parameter and return a unique ID let's say an unsigned integer. This is called a hash function. It'll generate unique ID for every unique string. And same unique ID over and over for same string. Things get complicated when the two different string generate same ID. This is called collision.
+Let's think about a function `unsigned int hash(string)`. This function will take a string as a parameter and return a unique ID let's say an unsigned integer. This is called a hash function. It'll generate a unique ID for every unique string. And same unique ID over and over for same string. Things get complicated when the two different strings generate same ID. This is called a hash collision.
 
 ## Hashing in C++
 Let's use `std::hash` to generate hash for some string.
