@@ -1,5 +1,6 @@
 ---
 published: true
+comments: true
 layout: post
 title: People I Follow
 author: Riad Afridi Shibly

@@ -1,5 +1,6 @@
 ---
 published: true
+comments: true
 layout: post
 title: String Hashing in C++
 author: Riad Afridi Shibly
